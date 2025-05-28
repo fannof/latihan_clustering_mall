@@ -1,2 +1,3 @@
-# latihan_clustering_mall
-Latihan Penerapan Algoritma Clustering untuk Mengelompokkan Data Customer Mall.
+# Latihan Studi Kasus: Penerapan Algoritma Clustering untuk Mengelompokkan Data Customer Mall
+
+
