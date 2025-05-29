@@ -25,3 +25,9 @@ Dari hasil output df.info(), kita dapat melihat bahwa dataset ini terdiri atas 2
 3. Age: Ini menampilkan usia pelanggan dalam tahun, bertipe data int64.
 4. Annual Income (k$): Ini berisi pendapatan tahunan pelanggan dalam ribuan dolar, bertipe data int64.
 5. Spending Score (1-100): Ini menunjukkan skor pengeluaran pelanggan, mulai dari 1 hingga 100, bertipe data int64.
+
+Semua kolom memiliki nilai non-null, artinya tidak ada missing values yang perlu ditangani. Dataset ini siap untuk dianalisis lebih lanjut.
+
+Selanjutnya, kita akan menampilkan statistik deskriptif dari dataset menggunakan df.describe(). Fungsi ini memberikan ringkasan statistik untuk kolom-kolom numerik, seperti jumlah data, nilai rata-rata, standar deviasi, serta nilai minimum dan maksimum. Ini membantu kita memahami distribusi data dan mengidentifikasi outlier atau anomali yang mungkin ada.
+
+![3](https://github.com/user-attachments/assets/51950cd5-b0c1-4542-8581-c977b5bf91c3)
