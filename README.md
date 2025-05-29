@@ -20,3 +20,8 @@ Selanjutnya, akan ditampilkan informasi umum tentang dataset menggunakan df.info
 
 Dari hasil output df.info(), kita dapat melihat bahwa dataset ini terdiri atas 200 baris dan 5 kolom. Berikut adalah detail dari setiap kolom.
 
+1. CustomerID: Ini berisi ID unik untuk setiap pelanggan, bertipe data int64.
+2. Gender: Ini menunjukkan jenis kelamin pelanggan, bertipe data object (kategori).
+3. Age: Ini menampilkan usia pelanggan dalam tahun, bertipe data int64.
+4. Annual Income (k$): Ini berisi pendapatan tahunan pelanggan dalam ribuan dolar, bertipe data int64.
+5. Spending Score (1-100): Ini menunjukkan skor pengeluaran pelanggan, mulai dari 1 hingga 100, bertipe data int64.
