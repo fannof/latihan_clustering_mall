@@ -31,3 +31,17 @@ Semua kolom memiliki nilai non-null, artinya tidak ada missing values yang perlu
 Selanjutnya, kita akan menampilkan statistik deskriptif dari dataset menggunakan df.describe(). Fungsi ini memberikan ringkasan statistik untuk kolom-kolom numerik, seperti jumlah data, nilai rata-rata, standar deviasi, serta nilai minimum dan maksimum. Ini membantu kita memahami distribusi data dan mengidentifikasi outlier atau anomali yang mungkin ada.
 
 ![3](https://github.com/user-attachments/assets/51950cd5-b0c1-4542-8581-c977b5bf91c3)
+
+Berdasarkan hasil statistik deskriptif yang ditampilkan oleh df.describe(), kita dapat melihat beberapa informasi penting mengenai kolom-kolom numerik dalam dataset.
+
+1. CustomerID
+   - Terdiri dari 200 data unik, ID pelanggan bervariasi dari 1 hingga 200.
+2. Age (Usia)
+   - Usia pelanggan berkisar antara 18 hingga 70 tahun dengan rata-rata 38.85 tahun.
+   - Sebagian besar pelanggan berada pada rentang usia 28.75 hingga 49 tahun (kuartil ke-1 hingga ke-3).
+3. Annual Income (k$) (Pendapatan Tahunan)
+   - Pendapatan tahunan pelanggan bervariasi antara 15 hingga 137 ribu dolar dengan rata-rata 60.56 ribu dolar.
+   - Sebagian besar pelanggan memiliki pendapatan tahunan antara 41.5 hingga 78 ribu dolar.
+4. Spending Score (1–100) (Skor Pengeluaran)
+   - Skor pengeluaran pelanggan bervariasi dari 1 hingga 99 dengan rata-rata skor pengeluaran sebesar 50.2.
+   - Sebagian besar pelanggan memiliki skor pengeluaran antara 34.75 hingga 73.
