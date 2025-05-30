@@ -45,3 +45,4 @@ Berdasarkan hasil statistik deskriptif yang ditampilkan oleh df.describe(), kita
 4. Spending Score (1–100) (Skor Pengeluaran)
    - Skor pengeluaran pelanggan bervariasi dari 1 hingga 99 dengan rata-rata skor pengeluaran sebesar 50.2.
    - Sebagian besar pelanggan memiliki skor pengeluaran antara 34.75 hingga 73.
+
