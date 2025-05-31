@@ -99,3 +99,14 @@ Berikut adalah hasil variabel X yang terdiri dari 2 kolom, yaitu Annual Income (
 ![7](https://github.com/user-attachments/assets/03bbe6e5-c039-4867-8a76-e29046d5fb61)
 
 Dengan data yang telah disiapkan, kita sekarang siap untuk memasuki tahapan pembangunan model clustering. Pada tahap ini, kita akan menggunakan teknik clustering untuk mengelompokkan pelanggan berdasarkan pendapatan tahunan dan skor pengeluaran mereka. 
+
+## Elbow Method
+
+Sebelum melanjutkan ke pembangunan model clustering, kita perlu menentukan jumlah cluster yang optimal untuk data kita. Untuk itu, kita akan menggunakan metode elbow method. Metode ini berfungsi untuk membantu kita memilih jumlah cluster terbaik dengan melihat perubahan total within-cluster sum of squares (WCSS) saat jumlah cluster bertambah. Dengan menggunakan elbow method, kita akan menggambar grafik WCSS terhadap jumlah cluster dan mencari "siku" pada grafik tersebut. Titik letak penurunan WCSS mulai melambat, atau sikunya, biasanya menunjukkan jumlah cluster yang optimal. Ini membantu kita menghindari overfitting dengan memilih jumlah cluster yang sesuai dengan struktur data.
+
+Untuk menentukan jumlah cluster yang optimal, kita menggunakan metode elbow dengan model KMeans. Pertama, kita menginisialisasi model KMeans tanpa menetapkan jumlah cluster awal. Selanjutnya, kita menggunakan KElbowVisualizer untuk mengevaluasi berbagai jumlah cluster dari 1 hingga 10.
+
+![8](https://github.com/user-attachments/assets/2c59c35a-6f67-4432-a7ba-c291acc4c484)
+
+Hasil analisis metode elbow menunjukkan bahwa jumlah cluster optimal adalah 4 dengan nilai total within-cluster sum of squares (WCSS) sebesar 73,679.789. Ini berarti bahwa membagi data menjadi 4 cluster memberikan keseimbangan terbaik antara meminimalkan jarak di dalam cluster dan memaksimalkan jarak antar cluster. 
+
