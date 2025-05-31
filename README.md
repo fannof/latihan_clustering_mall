@@ -110,3 +110,4 @@ Untuk menentukan jumlah cluster yang optimal, kita menggunakan metode elbow deng
 
 Hasil analisis metode elbow menunjukkan bahwa jumlah cluster optimal adalah 4 dengan nilai total within-cluster sum of squares (WCSS) sebesar 73,679.789. Ini berarti bahwa membagi data menjadi 4 cluster memberikan keseimbangan terbaik antara meminimalkan jarak di dalam cluster dan memaksimalkan jarak antar cluster. 
 
+## Cluster Modeling (K-Means Clustering)
