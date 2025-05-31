@@ -80,3 +80,13 @@ Setelah menghitung jumlah pelanggan dalam setiap kategori, data tersebut divisua
 
 ![6](https://github.com/user-attachments/assets/43c61e5b-3d7d-43f3-bbe5-96daeaef0372)
 
+Hasil visualisasi menunjukkan distribusi pendapatan tahunan pelanggan sebagai berikut.
+
+- $0–30,000: ada 32 pelanggan dalam rentang pendapatan ini.
+- $30,001–60,000: kategori ini memiliki jumlah pelanggan terbanyak, yaitu 66.
+- $60,001–90,000: ada 80 pelanggan dalam rentang pendapatan ini dan menjadikannya kategori dengan jumlah pelanggan terbesar.
+- $90,001–120,000: rentang ini memiliki 18 pelanggan.
+- $120,001–150,000: kategori ini mencakup 4 pelanggan yang merupakan jumlah paling sedikit di antara semua kategori.
+
+Bar chart ini menunjukkan bahwa pelanggan paling banyak berada dalam rentang pendapatan $60,001–90,000, sedangkan kategori pendapatan tertinggi $120,001–150,000 memiliki jumlah pelanggan yang paling sedikit. Grafik ini memberikan wawasan tentang distribusi pendapatan pelanggan dan dapat membantu dalam merencanakan strategi pemasaran yang lebih efektif.
+
