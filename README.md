@@ -67,3 +67,16 @@ Untuk menganalisis distribusi usia pelanggan, kita mengelompokkan usia ke dalam 
 Visualisasi ini menunjukkan bahwa kelompok usia 26–35 tahun adalah yang terbesar di antara pelanggan, sementara kelompok usia 55 tahun ke atas memiliki jumlah pelanggan paling sedikit. Distribusi usia ini memberikan wawasan penting tentang demografi pelanggan serta dapat membantu dalam perencanaan strategi pemasaran dan layanan.
 
 ![5](https://github.com/user-attachments/assets/a2ab350c-a3d4-4e34-81f4-2691b459c292)
+
+Untuk menganalisis distribusi pendapatan tahunan pelanggan, kita mengelompokkan pendapatan ke dalam beberapa kategori dan menghitung jumlah pelanggan pada setiap kategori. Pendapatan tahunan dikelompokkan ke dalam lima rentang.
+
+1. $0–30,000
+2. $30,001–60,000
+3. $60,001–90,000
+4. $90,001–120,000
+5. $120,001–150,000
+
+Setelah menghitung jumlah pelanggan dalam setiap kategori, data tersebut divisualisasikan melalui bar chart. Grafik ini memperlihatkan jumlah pelanggan dalam setiap rentang pendapatan dengan warna berbeda untuk masing-masing kategori.
+
+![6](https://github.com/user-attachments/assets/43c61e5b-3d7d-43f3-bbe5-96daeaef0372)
+
