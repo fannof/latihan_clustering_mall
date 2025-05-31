@@ -48,10 +48,22 @@ Berdasarkan hasil statistik deskriptif yang ditampilkan oleh df.describe(), kita
 
 ## Exploratory Data Analysis
 
-Tahap ketiga yang paling penting dalam analisis data adalah exploratory data analysis (EDA). Pada tahap ini, kita melakukan eksplorasi mendalam terhadap dataset untuk memahami pola, hubungan, dan anomali yang ada. EDA memungkinkan kita untuk mendapatkan wawasan awal yang penting untuk analisis lebih lanjut dan mempersiapkan data sebelum membangun model. 
-
-Aktivitas utama dalam EDA mencakup visualisasi data melalui grafik dan plot untuk melihat distribusi serta hubungan antar fitur, analisis korelasi dalam mengidentifikasi hubungan antara fitur-fitur numerik, serta deteksi anomali dan outlier yang dapat memengaruhi model.
+Tahap ketiga yang paling penting dalam analisis data adalah exploratory data analysis (EDA). Pada tahap ini, kita melakukan eksplorasi mendalam terhadap dataset untuk memahami pola, hubungan, dan anomali yang ada. EDA memungkinkan kita untuk mendapatkan wawasan awal yang penting untuk analisis lebih lanjut dan mempersiapkan data sebelum membangun model. Aktivitas utama dalam EDA mencakup visualisasi data melalui grafik dan plot untuk melihat distribusi serta hubungan antar fitur, analisis korelasi dalam mengidentifikasi hubungan antara fitur-fitur numerik, serta deteksi anomali dan outlier yang dapat memengaruhi model.
 
 Untuk memvisualisasikan distribusi gender pada dataset, kita menghitung jumlah masing-masing kategori gender menggunakan value_counts() dan menampilkan hasilnya dalam diagram lingkaran (pie chart). Diagram ini, yang dihasilkan dengan plt.pie(), menggambarkan proporsi gender dengan label 'Female' dan 'Male', serta menampilkan persentase setiap kategori. Grafik ini memudahkan kita untuk melihat distribusi gender secara visual serta memahami perbandingan antara jumlah wanita dan pria dalam dataset. Hasilnya berikut.
 
 ![4](https://github.com/user-attachments/assets/c9ddd6cd-a621-4c9e-aec9-f1142f32fffc)
+
+Dari pie chart yang ditampilkan, kita dapat ketahui bahwa persentase perempuan lebih besar dibandingkan laki-laki dengan proporsi sebesar 56% untuk perempuan dan 44% untuk laki-laki.
+
+Untuk menganalisis distribusi usia pelanggan, kita mengelompokkan usia ke dalam beberapa kategori dan menghitung jumlah pelanggan pada setiap kategori. Usia dibagi menjadi lima kategori: 18–25, 26–35, 36–45, 46–55, dan 55 ke atas. Setelah menghitung jumlah pelanggan pada setiap kategori, data tersebut digunakan untuk membuat diagram batang (bar chart) yang menunjukkan distribusi usia pelanggan. Proses ini disebut sebagai binning. Ini adalah teknik untuk mengelompokkan nilai-nilai numerik ke dalam interval atau kategori yang disebut bins. Dalam kasus ini, usia pelanggan dikelompokkan ke dalam beberapa rentang usia yang telah ditentukan, dan jumlah pelanggan pada setiap rentang dihitung. Hasilnya kemudian divisualisasikan menggunakan bar chart untuk memudahkan analisis distribusi usia. Binning membantu menyederhanakan data dan memudahkan interpretasi pola-pola dalam dataset. Berikut adalah visualisasi distribusi usia pelanggan berdasarkan kategori yang telah ditentukan.
+
+1. 18–25 tahun: ada 38 pelanggan dalam rentang usia ini.
+2. 26–35 tahun: kategori ini memiliki jumlah pelanggan terbanyak, yaitu 60.
+3. 36–45 tahun: ada 36 pelanggan dalam rentang usia ini.
+4. 46–55 tahun: ada 37 pelanggan yang termasuk dalam kategori ini.
+5. 55 tahun ke atas: rentang usia ini memiliki 29 pelanggan.
+
+Visualisasi ini menunjukkan bahwa kelompok usia 26–35 tahun adalah yang terbesar di antara pelanggan, sementara kelompok usia 55 tahun ke atas memiliki jumlah pelanggan paling sedikit. Distribusi usia ini memberikan wawasan penting tentang demografi pelanggan serta dapat membantu dalam perencanaan strategi pemasaran dan layanan.
+
+![5](https://github.com/user-attachments/assets/a2ab350c-a3d4-4e34-81f4-2691b459c292)
