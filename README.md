@@ -125,4 +125,5 @@ Selain itu, kita menambahkan judul serta label pada sumbu X dan Y untuk memberik
 Nilai centroid untuk setiap cluster sebagai berikut.
 
 - Centroid 1: pendapatan tahunan $48,260 serta skor belanja 56.48 menunjukkan pelanggan dengan pendapatan menengah dan belanja tinggi.
-
+- Centroid 2: pendapatan tahunan $86,540 serta skor belanja 82.13 menggambarkan pelanggan dengan pendapatan tinggi dan belanja intensif.
+- 
