@@ -118,3 +118,6 @@ Fungsi analyze_clusters kemudian digunakan untuk menganalisis karakteristik dari
 
 Visualisasi dimulai dengan plot scatter untuk menampilkan data pelanggan yang telah dikelompokkan ke dalam cluster dengan warna berbeda pada setiap cluster berdasarkan pemberian label. Centroid dari setiap cluster digambarkan dengan marker 'X' berwarna merah dan ukuran yang lebih besar. Label ditambahkan pada setiap centroid untuk menandai posisinya. Selain itu, kita menambahkan judul serta label pada sumbu X dan Y untuk memberikan konteks pada plot yang menunjukkan distribusi pendapatan tahunan serta skor belanja pelanggan dalam setiap cluster. Setelah visualisasi, nilai centroid untuk setiap cluster ditampilkan. Ini menunjukkan pendapatan tahunan dan skor belanja rata-rata yang mewakili pusat dari masing-masing cluster. Berikut adalah visualisasi penyebaran cluster yang kita dapatkan.
 
+![9](https://github.com/user-attachments/assets/cfb53fd6-52d3-4e8d-8592-614ab190cf75)
+
+
