@@ -120,4 +120,6 @@ Visualisasi dimulai dengan plot scatter untuk menampilkan data pelanggan yang te
 
 ![9](https://github.com/user-attachments/assets/cfb53fd6-52d3-4e8d-8592-614ab190cf75)
 
+Nilai centroid untuk setiap cluster sebagai berikut.
+
 
